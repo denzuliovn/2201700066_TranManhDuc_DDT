@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DataDriven_Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c617a65c-b5e4-4704-80ac-a1777561448c</testSuiteGuid>
+   <testCaseLink>
+      <guid>6201dc28-f965-4955-b5d3-3538ad44e9ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DataDriven_Appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bbb22222-cccc-dddd-eeee-222222222222</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AppointmentData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bbb22222-cccc-dddd-eeee-222222222222</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>ccc33333-dddd-eeee-ffff-111111111111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bbb22222-cccc-dddd-eeee-222222222222</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program</value>
+         <variableId>ccc33333-dddd-eeee-ffff-222222222222</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bbb22222-cccc-dddd-eeee-222222222222</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visit_date</value>
+         <variableId>ccc33333-dddd-eeee-ffff-333333333333</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bbb22222-cccc-dddd-eeee-222222222222</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>ccc33333-dddd-eeee-ffff-444444444444</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

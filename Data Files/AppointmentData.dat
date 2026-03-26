@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>AppointmentData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>,</csvSeperator>
+   <dataFileGUID>aaa11111-bbbb-cccc-dddd-111111111111</dataFileGUID>
+   <dataSourceUrl>D:\YEAR IV\Software testing\2201700066_DDT\Data Files\AppointmentData.csv</dataSourceUrl>
+   <driver>CsvFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
