@@ -1,0 +1,4 @@
+username,password,expected_result
+John Doe,ThisIsNotAPassword,success
+wrong_user,wrong_pass,fail
+John Doe,wrong_pass,fail

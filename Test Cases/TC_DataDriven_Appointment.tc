@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-Driven Test: Login and book appointment with data from CSV</description>
+   <name>TC_DataDriven_Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53119707-2157-449e-8dd9-9bbe812c69ba</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccc33333-dddd-eeee-ffff-111111111111</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccc33333-dddd-eeee-ffff-222222222222</id>
+      <masked>false</masked>
+      <name>program</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccc33333-dddd-eeee-ffff-333333333333</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccc33333-dddd-eeee-ffff-444444444444</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

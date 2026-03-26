@@ -1,0 +1,4 @@
+facility,readmission,program,visit_date,comment
+Tokyo CURA Healthcare Center,Yes,Medicaid,25/12/2025,Regular checkup
+Hongkong CURA Healthcare Center,No,Medicare,15/01/2026,Follow-up visit
+Seoul CURA Healthcare Center,Yes,None,10/03/2026,Annual physical exam

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-Driven Test: Login, book appointment, and verify confirmation page details match input data</description>
+   <name>TC_DataDriven_AppointmentVerify</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaa11111-1111-1111-1111-111111111111</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaa11111-2222-3333-4444-111111111111</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaa11111-2222-3333-4444-222222222222</id>
+      <masked>false</masked>
+      <name>readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaa11111-2222-3333-4444-333333333333</id>
+      <masked>false</masked>
+      <name>program</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaa11111-2222-3333-4444-444444444444</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaa11111-2222-3333-4444-555555555555</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

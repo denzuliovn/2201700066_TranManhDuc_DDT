@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chk_HospitalReadmission</name>
+   <tag></tag>
+   <elementGuidId>b2c3d4e5-1111-2222-3333-444455556666</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#chk_hospotal_readmission</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='chk_hospotal_readmission']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>chk_hospotal_readmission</value>
+      <webElementGuid>b2c3d4e5-1111-2222-3333-444455556661</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='chk_hospotal_readmission']</value>
+      <webElementGuid>b2c3d4e5-1111-2222-3333-444455556662</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

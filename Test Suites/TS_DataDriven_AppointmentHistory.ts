@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DataDriven_AppointmentHistory</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ddd55555-1111-1111-1111-555555555555</testSuiteGuid>
+   <testCaseLink>
+      <guid>eee55555-1111-1111-1111-555555555555</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DataDriven_AppointmentHistory</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fff55555-1111-1111-1111-555555555555</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AppointmentHistoryData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fff55555-1111-1111-1111-555555555555</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>bbb22222-2222-3333-4444-111111111111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff55555-1111-1111-1111-555555555555</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program</value>
+         <variableId>bbb22222-2222-3333-4444-222222222222</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff55555-1111-1111-1111-555555555555</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visit_date</value>
+         <variableId>bbb22222-2222-3333-4444-333333333333</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff55555-1111-1111-1111-555555555555</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>bbb22222-2222-3333-4444-444444444444</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DataDriven_AppointmentVerify</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ddd44444-1111-1111-1111-444444444444</testSuiteGuid>
+   <testCaseLink>
+      <guid>eee44444-1111-1111-1111-444444444444</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DataDriven_AppointmentVerify</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fff44444-1111-1111-1111-444444444444</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AppointmentVerifyData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fff44444-1111-1111-1111-444444444444</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>aaa11111-2222-3333-4444-111111111111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff44444-1111-1111-1111-444444444444</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>readmission</value>
+         <variableId>aaa11111-2222-3333-4444-222222222222</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff44444-1111-1111-1111-444444444444</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program</value>
+         <variableId>aaa11111-2222-3333-4444-333333333333</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff44444-1111-1111-1111-444444444444</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visit_date</value>
+         <variableId>aaa11111-2222-3333-4444-444444444444</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff44444-1111-1111-1111-444444444444</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>aaa11111-2222-3333-4444-555555555555</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
