@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DataDriven_LoginAndProfile</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ddd66666-1111-1111-1111-666666666666</testSuiteGuid>
+   <testCaseLink>
+      <guid>eee66666-1111-1111-1111-666666666666</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DataDriven_LoginAndProfile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fff66666-1111-1111-1111-666666666666</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginProfileData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fff66666-1111-1111-1111-666666666666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ccc33333-2222-3333-4444-111111111111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff66666-1111-1111-1111-666666666666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ccc33333-2222-3333-4444-222222222222</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fff66666-1111-1111-1111-666666666666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_result</value>
+         <variableId>ccc33333-2222-3333-4444-333333333333</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
